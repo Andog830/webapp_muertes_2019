@@ -29,6 +29,7 @@ mortalidad_colombia/
 └── data/                   # Archivos de datos (no incluidos en el repo por tamaño)
     ├── NoFetal2019.xlsx
     ├── CodigosDeMuerte.xlsx
+    ├── Colombia.geo.json
     └── Divipola.xlsx
 ```
 
@@ -98,7 +99,7 @@ source venv/bin/activate        # En Windows: venv\Scripts\activate
 pip install -r requirements.txt
 
 # 4. Colocar los archivos de datos en la carpeta data/
-#    NoFetal2019.xlsx, CodigosDeMuerte.xlsx, Divipola.xlsx
+#    NoFetal2019.xlsx, CodigosDeMuerte.xlsx, Divipola.xlsx, Colombia.geo.json
 
 # 5. Ejecutar la aplicación
 python app.py
